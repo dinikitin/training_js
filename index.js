@@ -1,3 +1,4 @@
+/*
 let number_a = 19;
 const number_b =15;
 
@@ -33,7 +34,7 @@ cycle(number_b);
 
 // ----------------------------------------//
 
-/*function output() {
+function output() {
     console.log('Hello');
 }
 
@@ -41,7 +42,7 @@ function nameFun(output = () =>{
     console.log('Hello world');
 })
 
-nameFun(); */
+nameFun(); 
 
 const something = function() {
     console.log('ahahahah')
@@ -71,7 +72,7 @@ something()
       }
   };
 
-console.log('property => ', car.model)
+console.log('property => ', car.model)s
 car.intro();
 
 
@@ -85,3 +86,58 @@ function app() {
     }
 }
 
+*/
+
+/*    -------- Рекурсия -----
+
+function fact(n) {
+    if (n<0 || n<=1)
+        return n;
+    return n*fact(n-1);
+};
+
+console.log(fact(x))
+*/
+
+/*    -------- hasOwnProperty -----
+const home = {
+    'bed': 3,
+    'TV': 1,
+    'table': 4,
+    intro: function() {
+        console.log(this);
+    }
+};
+
+
+a = home.hasOwnProperty('computer');
+
+a==true? console.log(1): console.log(0)
+*/
+
+/*       ----- null\undefined ----
+let x;
+
+x==undefined? alert_ = 1: alert_ = 0
+
+console.log(alert_)
+*/
+
+/*   ---- ParseInt and ParseFloat -----
+
+x_ = 52.2436346523
+a_ = 4.5235342
+x = parseInt(x_)
+a = parseFloat(a_)
+console.log('ParserInt = ', x, '\tParserFloat = ', a)
+*/
+
+
+/*    ----- Округление ----
+
+let a = 12.14535213;
+
+console.log('Math => ', a.toFixed(1))
+
+console.log(Math.ceil(-55.59, -1))
+*/
